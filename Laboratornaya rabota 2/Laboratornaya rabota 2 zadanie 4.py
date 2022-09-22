@@ -1,0 +1,5 @@
+a=int(input("Число a равно:"))
+b=int(input("Число b равно:"))
+c=int(input("Число c равно:"))
+my_set = set([a,b,c])
+print("Количество уникальных чисел равно", len(my_set))
